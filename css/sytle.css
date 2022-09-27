@@ -55,7 +55,7 @@ btn.small {
 }
 
 header {
-    background-color: lightblue;
+    background-color: rgb(51, 98, 224);
     padding: 8px 0;
 }
 
@@ -90,7 +90,7 @@ header {
 }
 
 .section-1 {
-    background-color: blue;
+    background-image: ../imgs/jumbo.png;
 }
 
 .section-fill {
