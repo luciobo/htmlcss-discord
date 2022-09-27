@@ -10,7 +10,7 @@ section {
     padding: 40px 0; 
 }
 
-/* ----------------------- diemnsionamento header */
+/* ----------------------- diemnsionamento titoli */
 h1 {
     font-size: 60px;
     color: white;
@@ -55,7 +55,6 @@ a {
 /* ------------------------ sezione sotto nav */
 
 .sect-1 {
-    background-color: blue;
     background-image: url("../imgs/jumbo.png");
     background-size: 100%;
 }
@@ -74,8 +73,17 @@ a {
 }
 
 .btn-white {
+    font-size: 18px;
     color: rgb(36, 39, 42);
     background-color: white;
+    padding: 5px 8px;
+}
+
+.btn-black {
+    font-size: 18px;
+    color: white;
+    background-color: rgb(36, 39, 42);
+    padding: 5px 8px;
 }
 
 .btn-small {
@@ -184,6 +192,10 @@ ul {
 
 footer {
     background-color: black;
+}
+
+.footer-align {
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
