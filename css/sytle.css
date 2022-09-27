@@ -10,16 +10,31 @@ section {
     padding: 40px 0; 
 }
 
+/* ----------------------- diemnsionamento header */
 h1 {
-    font-size: 40px;
+    font-size: 60px;
     color: white;
     padding-bottom: 25px;
     text-align: center;
 }
 
+h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+h3 {
+    font-size: 30px;
+    padding-bottom: 25px;
+    color: white;
+}
+
 p {
+    font-size: 20px;
     padding-bottom: 20px;
     color: rgb(36, 39, 42);
+    text-align: center;
 
 }
 
@@ -113,35 +128,32 @@ header {
     justify-content: center;
 }
 
-.riempimento {
-    padding: 50px;
-}
 
 .section-fill {
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    
 }
 
 /* ---------------------- colonne sezioni */
 .col-1 {
-    width: 100%;
+    flex-basis: 60%;
 }
 
 .col-2 {
-    background-color: brown;
-    width: 70%;
-    padding: 60px;
-    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 40%;
+    justify-content: center
+    
 }
 
 .sfondo-grigio {
     background-color: lightgray;
-}
-
-.box-inferiore {
-    background-color: brown;
-    width: 100%;
-    padding: 200px;
+    text-align: center;
 }
 
 
@@ -151,21 +163,27 @@ header {
     background-color: black;
 }
 
+/* ----------------------------- colonne inferiori */
 .col-3 {
-    background-color: blueviolet;
-    width: 30%;
-    padding: 60px;
-    border: 1px solid black;
+    list-style: none;
+    flex-basis: 30%;
+    color: white;
+    text-align: center;
 }
 
 .col-4 {
-    background-color: brown;
-    width: 70%;
-    padding: 60px;
-    border: 1px solid green;
+    flex-basis: 40%;
 }
 
+ul {
+    list-style: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
 footer {
+    background-color: black;
     display: flex;
     justify-content: space-between;
 }
