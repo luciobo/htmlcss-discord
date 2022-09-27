@@ -23,7 +23,7 @@ p {
 
 }
 
-/* allineamento ul */
+/* ------------------------ allineamento ul */
 .align-ul {
     display: flex;
     list-style: none;
@@ -34,23 +34,24 @@ p {
 a {
     padding: 7px;
     display: inline-block;
+    color: white;
 }
 
 /* ------------------------ sezione sotto nav */
 
 .sect-1 {
     background-color: blue;
+    background-image: url("../imgs/jumbo.png");
+    background-size: 100%;
 }
 
 .pad-sec1 {
-    display: flexbox;
-    justify-content: center;
+    text-align: center;
 }
 
 
 /*------------------------- bottoni*/
 .button-style {
-    padding: .5rem 1rem;
     border-radius: 25px;
     border: none;
     color: rgb(36, 39, 42);
@@ -118,15 +119,12 @@ header {
 
 .section-fill {
     display: flex;
-    justify-content: space-around;
-    border : 1px solid red;
+    justify-content: center;
 }
 
+/* ---------------------- colonne sezioni */
 .col-1 {
-    background-color: blueviolet;
-    width: 30%;
-    padding: 60px;
-    border: 1px solid black;
+    width: 100%;
 }
 
 .col-2 {
