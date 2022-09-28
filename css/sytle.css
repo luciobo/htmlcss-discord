@@ -55,6 +55,7 @@ a {
     padding: 7px;
     display: inline-block;
     color: white;
+    text-decoration: none;
 }
 
 /* ------------------------ sezione sotto nav */
@@ -74,7 +75,8 @@ a {
     border-radius: 25px;
     border: none;
     color: rgb(36, 39, 42);
-    background-color: white;    
+    background-color: white; 
+       
 }
 
 .btn-white {
@@ -92,7 +94,7 @@ a {
 }
 
 .btn-small {
-    font-size: 10px;
+    font-size: 12px;
     padding: 2px 8px;
 }
 
@@ -133,6 +135,7 @@ header {
     text-align: right;
     display: flex;
     justify-content: right;
+    align-items: center;
 }
 
 .header-col-central {
